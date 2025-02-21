@@ -7,7 +7,7 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](
 
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper 
-[This is a Template](https://doi.org/10.1287/ijoc.2019.0000) by T. Ralphs. 
+[This is a Template](https://doi.org/10.1287/ijoc.2019.0000) by J. Yin, L. Yang, Z. Liang et al. 
 The snapshot is based on 
 [this SHA](https://github.com/tkralphs/JoCTemplate/commit/f7f30c63adbcb0811e5a133e1def696b74f3ba15) 
 in the development repository. 
@@ -28,19 +28,19 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ```
 @misc{CacheTest,
-  author =        {T. Ralphs},
+  author =        {J. Yin, L. Yang. Z. Liang, A. D'Ariano, Z. Gao},
   publisher =     {INFORMS Journal on Computing},
-  title =         {{CacheTest}},
-  year =          {2020},
+  title =         {{Real-Time Rolling Stock and Timetable Rescheduling in Urban Rail Transit Systems}},
+  year =          {2025},
   doi =           {10.1287/ijoc.2019.0000.cd},
-  url =           {https://github.com/INFORMSJoC/2019.0000},
-  note =          {Available for download at https://github.com/INFORMSJoC/2019.0000},
+  url =           {https://github.com/INFORMSJoC/2023.0391},
+  note =          {Available for download at https://github.com/INFORMSJoC/2023.0391},
 }  
 ```
 
 ## Description
 
-The goal of this software is to demonstrate the effect of cache optimization.
+This repository includes the computational results, source codes and source data (with no conflict of interest) for the experiments presented in the paper.
 
 ## Building
 
