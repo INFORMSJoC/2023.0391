@@ -16,7 +16,7 @@ In each file in the instances, we give a planned timetable of trains in this ins
 
 In other words, each row in the instance file represetns two events (an arrival and a departure event). Note that, you can visualize the timetable in each instance by using our RSTO software in the project. If you want to visualize the timetable in each instance, you can compile the whole project and run the exe file. Then you can take actions in the UI. Click right mouse in the UI, and click "Input timetable" button. Then, choose one instance file in the folder. You will see the timetable being displayed in the UI! 
 
-![Line1](Line1Layout.jpg)
+![Line1](Timetable.jpg)
 
 ## Some Other Parameters in the experiments
 
