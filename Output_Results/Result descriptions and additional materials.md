@@ -4,13 +4,9 @@ The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper "Real-Time Rolling Stock and Timetable Rescheduling in Urban Rail Transit Systems" by J. Yin, L. Yang, Z.Liang, et al.
 ## Description
 
-This repository includes illustrative examples, pseudocodes of the algorithm, source codes, computational results, and source data for the experiments presented in the paper, with no conflict of interest. Please note that the source data and codes are available for academic purposes only and cannot be used commercially. We encourage academic researchers to utilize these resources to replicate our findings and build upon our work.
+This folder includes illustrative examples, pseudocodes of the algorithm and computational results presented in the paper. We encourage academic researchers to utilize these resources to replicate our findings and build upon our work.
 
-## Requirements
-For these experiments, the following requirements should be satisfied
-* a PC with at least 16 GB RAM
-* C# run on Windows 10 (with SDK higher than 10.0.150630.0)
-* CPLEX 12.80 Academic version.
+## Detailed results of the paper
 
 ## Pseudocodes of BRC algorithm and ILS algorithm
 
