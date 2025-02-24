@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E54C231E-6BB9-4189-BCF5-66D00015BEAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication7</RootNamespace>
+    <AssemblyName>WindowsFormsApplication7</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ILOG.Concert, Version=12.8.0.0, Culture=neutral, PublicKeyToken=7906592bc7cc7340, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\B&amp;C\Code\Branch-and-Price - 副本\Branch-and-Price\bin\Debug\ILOG.Concert.dll</HintPath>
+    </Reference>
+    <Reference Include="ILOG.CPLEX, Version=12.8.0.0, Culture=neutral, PublicKeyToken=7906592bc7cc7340, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\B&amp;C\Code\Branch-and-Price - 副本\Branch-and-Price\bin\Debug\ILOG.CPLEX.dll</HintPath>
+    </Reference>
+    <Reference Include="IpInputExt">
+      <HintPath>.\IpInputExt.dll</HintPath>
+    </Reference>
+    <Reference Include="LEDLib">
+      <HintPath>.\LEDLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LineControl">
+      <HintPath>.\LineControl.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.2.2.920, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.2.2\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf">
+      <HintPath>..\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="ProgressBarEx">
+      <HintPath>.\ProgressBarEx.dll</HintPath>
+    </Reference>
+    <Reference Include="progressMy">
+      <HintPath>.\progressMy.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.4.0.16114, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AGauge.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AGauge.Designer.cs">
+      <DependentUpon>AGauge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Algorithm\Heuristics.cs" />
+    <Compile Include="Algorithm\InputParameters.cs" />
+    <Compile Include="Algorithm\Method.cs" />
+    <Compile Include="Algorithm\Network.cs" />
+    <Compile Include="Algorithm\path.cs" />
+    <Compile Include="BaseClasss\PassengerVolume.cs" />
+    <Compile Include="DashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardForm.Designer.cs">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailGridForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailGridForm.Designer.cs">
+      <DependentUpon>DetailGridForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Display.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Display.Designer.cs">
+      <DependentUpon>Display.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fangzhen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fangzhen.Designer.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formdock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formdock.Designer.cs">
+      <DependentUpon>Formdock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layout.Designer.cs">
+      <DependentUpon>Layout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Line.cs" />
+    <Compile Include="LineAdjustment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LineAdjustment.Designer.cs">
+      <DependentUpon>LineAdjustment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LineBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MultiSignal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MultiSignal.Designer.cs">
+      <DependentUpon>MultiSignal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyGroupBox.Designer.cs">
+      <DependentUpon>MyGroupBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewDisplay.Designer.cs">
+      <DependentUpon>NewDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OurButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OurButton.Designer.cs">
+      <DependentUpon>OurButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parameters.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resheduling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resheduling.Designer.cs">
+      <DependentUpon>Resheduling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="section.cs" />
+    <Compile Include="SevenSegment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SevenSegment.Designer.cs">
+      <DependentUpon>SevenSegment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SevenSegmentArray.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SevenSegmentArray.Designer.cs">
+      <DependentUpon>SevenSegmentArray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Signal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Signal.Designer.cs">
+      <DependentUpon>Signal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="station.cs" />
+    <Compile Include="StraightLine.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StraightLine.Designer.cs">
+      <DependentUpon>StraightLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StraightLineTypeEditor.cs" />
+    <Compile Include="train.cs" />
+    <Compile Include="CPUJianshi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPUJianshi.Designer.cs">
+      <DependentUpon>CPUJianshi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailGridForm.resx">
+      <DependentUpon>DetailGridForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Display.resx">
+      <DependentUpon>Display.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fangzhen.resx" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formdock.resx">
+      <DependentUpon>Formdock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layout.resx">
+      <DependentUpon>Layout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LineAdjustment.resx">
+      <DependentUpon>LineAdjustment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDisplay.resx">
+      <DependentUpon>NewDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="CPUJianshi.resx">
+      <DependentUpon>CPUJianshi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resheduling.resx">
+      <DependentUpon>Resheduling.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AJBauer.v11.suo" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AJBauer.csproj" />
+    <None Include="ICON\iconfinder_iconoteka_clock_alarm_b_s_3507765 %282%29.png" />
+    <None Include="ICON\iconfinder_alarm_clock_172568.png" />
+    <None Include="ICON\iconfinder_stopper_4359329.png" />
+    <None Include="ICON\iconfinder_UI_Basic_GLYPH-82_4733342.png" />
+    <None Include="ICON\iconfinder_b_1_2578287.png" />
+    <Content Include="IpInputExt.dll" />
+    <Content Include="LEDLib.dll" />
+    <Content Include="LineControl.dll" />
+    <Content Include="ProgressBarEx.dll" />
+    <Content Include="progressMy.dll" />
+    <None Include="Resources\Image1.png" />
+    <Content Include="WeifenLuo.WinFormsUI.Docking.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Dictionary1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
