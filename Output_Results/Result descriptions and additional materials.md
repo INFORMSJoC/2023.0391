@@ -21,7 +21,7 @@ This folder includes illustrative examples, pseudocodes of the algorithm and com
 
 [Performance comparison with different weights](Output_Results/weight_test) details the comparison of objective function values among four strategies with different weight coefficient wf (corresponding to the resutls in Figure 12 in the paper).
 
-[[Performance comparison with different weights](Output_Results/weight_test)] details the comparison of objective function values between PRST and R-PRST formulations (corresponding to the results in Table 7 in online appendix of the paper)
+[[Performance comparison between PRST and R-PRST](Output_Results/P-RST-VS-RST)] details the comparison of objective function values between PRST and R-PRST formulations (corresponding to the results in Table 7 in online appendix of the paper)
 
 
 ## Pseudocodes of BRC algorithm and ILS algorithm
