@@ -12,7 +12,9 @@ This folder includes illustrative examples, pseudocodes of the algorithm and com
 
 * The comparison among MIP, BDP and BAP (corresponding to Table 1 and Table 5in the paper)
 * The comparison among H-strategy, MIP and BAP (corresponding to Table 2 and Table 6 in the paper)
-* The comparison among AR and SR strategies (corresponding to Table 3 and Figure 9)
+* The comparison among AR and SR strategies (corresponding to Table 3)
+
+[Time-test](Output_Results/time_test) details the comparison of computational time (unit: s) among four strategies (corresponding to Figure 9 in the paper).
 
 
 ## Pseudocodes of BRC algorithm and ILS algorithm
