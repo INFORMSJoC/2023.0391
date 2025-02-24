@@ -8,7 +8,12 @@ This folder includes illustrative examples, pseudocodes of the algorithm and com
 
 ## Detailed results of the paper
 
-[Results](Output_Results/Details_results_30_instances)
+[Results](Output_Results/Details_results_30_instances) details the following results in the paper:
+
+* The comparison among MIP, BDP and BAP (corresponding to Table 1 and Table 5in the paper)
+* The comparison among H-strategy, MIP and BAP (corresponding to Table 2 and Table 6 in the paper)
+* The comparison among AR and SR strategies (corresponding to Table 3 and Figure 9)
+
 
 ## Pseudocodes of BRC algorithm and ILS algorithm
 
