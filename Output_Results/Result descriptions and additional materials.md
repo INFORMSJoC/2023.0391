@@ -23,6 +23,7 @@ This folder includes illustrative examples, pseudocodes of the algorithm and com
 
 [[Performance comparison between PRST and R-PRST](Output_Results/P-RST-VS-RST)] details the comparison of objective function values between PRST and R-PRST formulations (corresponding to the results in Table 7 in online appendix of the paper)
 
+[[Performance comparison with accelerations](Output_Results/acceleration)] details the comparison of computational time (unit: s) with and without acceleration techniques (corresponding to the results in Table 8 in online appendix of the paper)
 
 ## Pseudocodes of BRC algorithm and ILS algorithm
 
