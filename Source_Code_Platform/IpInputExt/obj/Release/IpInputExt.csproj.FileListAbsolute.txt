@@ -1,0 +1,17 @@
+C:\Users\jt\Desktop\map\IpInputExt\bin\Release\IpInputExt.dll
+C:\Users\jt\Desktop\map\IpInputExt\bin\Release\IpInputExt.pdb
+C:\Users\jt\Desktop\map\IpInputExt\obj\Release\IpInputExt.Ctrls.IpInputTextbox.resources
+C:\Users\jt\Desktop\map\IpInputExt\obj\Release\IpInputExt.Properties.Resources.resources
+C:\Users\jt\Desktop\map\IpInputExt\obj\Release\IpInputExt.csproj.GenerateResource.Cache
+C:\Users\jt\Desktop\map\IpInputExt\obj\Release\IpInputExt.csproj.CoreCompileInputs.cache
+C:\Users\jt\Desktop\map\IpInputExt\obj\Release\IpInputExt.dll
+C:\Users\jt\Desktop\map\IpInputExt\obj\Release\IpInputExt.pdb
+C:\Users\jt\Desktop\4-17 - 副本\IpInputExt\bin\Release\IpInputExt.dll
+C:\Users\jt\Desktop\4-17 - 副本\IpInputExt\bin\Release\IpInputExt.pdb
+C:\Users\jt\Desktop\4-17 - 副本\IpInputExt\obj\Release\IpInputExt.Ctrls.IpInputTextbox.resources
+C:\Users\jt\Desktop\4-17 - 副本\IpInputExt\obj\Release\IpInputExt.Properties.Resources.resources
+C:\Users\jt\Desktop\4-17 - 副本\IpInputExt\obj\Release\IpInputExt.csproj.GenerateResource.Cache
+C:\Users\jt\Desktop\4-17 - 副本\IpInputExt\obj\Release\IpInputExt.csproj.CoreCompileInputs.cache
+C:\Users\jt\Desktop\4-17 - 副本\IpInputExt\obj\Release\IpInputExt.dll
+C:\Users\jt\Desktop\4-17 - 副本\IpInputExt\obj\Release\IpInputExt.pdb
+C:\Users\jt\Desktop\4-17 - 副本\IpInputExt\obj\Release\IpInputExt.csprojResolveAssemblyReference.cache

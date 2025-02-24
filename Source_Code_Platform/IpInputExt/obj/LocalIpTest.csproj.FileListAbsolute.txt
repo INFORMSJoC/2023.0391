@@ -1,0 +1,11 @@
+D:\NetProject\Console\LocalIpTest\LocalIpTest\obj\Debug\ResolveAssemblyReference.cache
+D:\NetProject\Console\LocalIpTest\LocalIpTest\obj\Debug\LocalIpTest.Properties.Resources.resources
+D:\NetProject\Console\LocalIpTest\LocalIpTest\obj\Debug\LocalIpTest.csproj.GenerateResource.Cache
+D:\NetProject\Console\LocalIpTest\LocalIpTest\obj\Debug\LocalIpTest.Ctrls.IpInputTextbox.resources
+D:\NetProject\Console\LocalIpTest\LocalIpTest\obj\Debug\LocalIpTest.IpConfig.resources
+D:\NetProject\Console\LocalIpTest\LocalIpTest\bin\Debug\LocalIpTest.exe
+D:\NetProject\Console\LocalIpTest\LocalIpTest\bin\Debug\LocalIpTest.pdb
+D:\NetProject\Console\LocalIpTest\LocalIpTest\obj\Debug\LocalIpTest.exe
+D:\NetProject\Console\LocalIpTest\LocalIpTest\obj\Debug\LocalIpTest.pdb
+D:\NetProject\Console\复件 LocalIpTest\LocalIpTest\obj\Debug\LocalIpTest.exe
+D:\NetProject\Console\复件 LocalIpTest\LocalIpTest\obj\Debug\LocalIpTest.pdb

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="IpInputExt">
+</Property><Property Name="解决方案文件" Value="C:\Users\Administrator\Desktop\IpInputExt\IpInputExt.sln">
+</Property><Property Name="Date" Value="2011年12月22日">
+</Property><Property Name="Time" Value="9:25:56">
+</Property></Properties><Event ErrorLevel="0" Project="IpInputExt" Source="IpInputExt.csproj" Description="项目文件已成功备份为 C:\Users\Administrator\Desktop\IpInputExt\Backup\IpInputExt.csproj">
+</Event><Event ErrorLevel="0" Project="IpInputExt" Source="Ctrls\IpInputTextbox.cs" Description="文件已成功备份为 C:\Users\Administrator\Desktop\IpInputExt\Backup\Ctrls\IpInputTextbox.cs">
+</Event><Event ErrorLevel="0" Project="IpInputExt" Source="Ctrls\IpInputTextbox.Designer.cs" Description="文件已成功备份为 C:\Users\Administrator\Desktop\IpInputExt\Backup\Ctrls\IpInputTextbox.Designer.cs">
+</Event><Event ErrorLevel="0" Project="IpInputExt" Source="Ctrls\NumberTextBoxExt.cs" Description="文件已成功备份为 C:\Users\Administrator\Desktop\IpInputExt\Backup\Ctrls\NumberTextBoxExt.cs">
+</Event><Event ErrorLevel="0" Project="IpInputExt" Source="Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\Users\Administrator\Desktop\IpInputExt\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="IpInputExt" Source="Properties\Resources.Designer.cs" Description="文件已成功备份为 C:\Users\Administrator\Desktop\IpInputExt\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="IpInputExt" Source="Properties\Settings.Designer.cs" Description="文件已成功备份为 C:\Users\Administrator\Desktop\IpInputExt\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="IpInputExt" Source="Properties\Settings.settings" Description="文件已成功备份为 C:\Users\Administrator\Desktop\IpInputExt\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="IpInputExt" Source="Ctrls\IpInputTextbox.resx" Description="文件已成功备份为 C:\Users\Administrator\Desktop\IpInputExt\Backup\Ctrls\IpInputTextbox.resx">
+</Event><Event ErrorLevel="0" Project="IpInputExt" Source="Properties\Resources.resx" Description="文件已成功备份为 C:\Users\Administrator\Desktop\IpInputExt\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="IpInputExt" Source="IpInputExt.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="IpInputExt" Source="IpInputExt.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="IpInputExt" Source="IpInputExt.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="IpInputExt" Source="IpInputExt.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>
