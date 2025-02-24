@@ -6,13 +6,13 @@ This fold involves four sub-folders, Small_instances presents the 10 small-scale
 
 In each file in the instances, we give a planned timetable of trains in this instance. In particular, the following information are involved:
 
-* Rolling stock index
-* Service number
-* Station index
-* Arrival time at the corresponding station (unit: s)
-* Departure time at the corresponding station (unit: s)
-* Name of the station
-* Train index
+* Rolling stock index (列车号)
+* Service number (服务号)
+* Station index (车站)
+* Arrival time at the corresponding station (unit: s) (到达)
+* Departure time at the corresponding station (unit: s) (出发)
+* Name of the station (车站名称)
+* Train index (列车编号)
 
 In other words, each row in the instance file represetns two events (an arrival and a departure event). Note that, you can visualize the timetable in each instance by using our RSTO software in the project. If you want to visualize the timetable in each instance, you can compile the whole project and run the exe file. Then you can take actions in the UI. Click right mouse in the UI, and click "Input timetable" button. Then, choose one instance file in the folder. You will see the timetable being displayed in the UI! 
 
