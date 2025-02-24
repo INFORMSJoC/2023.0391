@@ -8,6 +8,8 @@ This folder includes illustrative examples, pseudocodes of the algorithm and com
 
 ## Detailed results of the paper
 
+[Results](Output_Results/Details_results_30_instances)
+
 ## Pseudocodes of BRC algorithm and ILS algorithm
 
 ![Algorithm 1. BRC algorithm to compute the optimal cost of big arcs](https://github.com/JerryYINJIATENG/RSTO-platform/blob/master/Materials/ILS.png)
