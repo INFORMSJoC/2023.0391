@@ -5,6 +5,7 @@ This fold gives the details infomration of the constructed 30 instances for test
 This fold involves four sub-folders, Small_instances presents the 10 small-scale instances, Medium_instances presents the 10 medium-scale instances, Large_instances presents the 10 large-scale instances, and Layout_information gives the detailed information of section running time, station information etc.
 
 In each file in the instances, we give a planned timetable of trains in this instance. In particular, the following information are involved:
+
 * Rolling stock index
 * Service number
 * Station index
@@ -13,8 +14,10 @@ In each file in the instances, we give a planned timetable of trains in this ins
 * Name of the station
 * Train index
 
+Note that, if you want to visualize the timetable in each instance, you can compile the whole project and run the exe file. Then you can take actions in the UI. Click right mouse in the UI, and click "Input timetable" button. Then, choose one instance file in the folder. You will see the timetable being displayed in the UI! 
 
-## Parameters in the experiments
+
+## Some Other Parameters in the experiments
 
 There are a total of 23 stations in Beijing metro line 1. Among these stations, there are six stations and two depots that allow trains to turn their directions. The names of these stations are BJ, YQL, GZF, XD, WFJ and GM. The names of the tweo depots are GY deopt and WS depot.
 
