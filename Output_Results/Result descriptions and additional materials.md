@@ -14,7 +14,14 @@ This folder includes illustrative examples, pseudocodes of the algorithm and com
 * The comparison among H-strategy, MIP and BAP (corresponding to Table 2 and Table 6 in the paper)
 * The comparison among AR and SR strategies (corresponding to Table 3)
 
-[Time-test](Output_Results/time_test) details the comparison of computational time (unit: s) among four strategies (corresponding to Figure 9 in the paper).
+[Time-test](Output_Results/time_test) details the comparison of computational time (unit: s) among four strategies (corresponding to Figure 9 in the paper) over the 30 instances.
+
+
+[Performance comparison](Output_Results/obj_test_2) details the comparison of objective function values among four strategies (corresponding to Figure 10 in the paper).
+
+[Performance comparison with different weights](Output_Results/weight_test) details the comparison of objective function values among four strategies with different weight coefficient wf (corresponding to the resutls in Figure 12 in the paper).
+
+[[Performance comparison with different weights](Output_Results/weight_test)] details the comparison of objective function values between PRST and R-PRST formulations (corresponding to the results in Table 7 in online appendix of the paper)
 
 
 ## Pseudocodes of BRC algorithm and ILS algorithm
