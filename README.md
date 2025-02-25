@@ -44,11 +44,11 @@ This repository includes the data set, computational results, additional materia
 
 ## Data set
 
-The [Input_data](Input_data) folder contains all the parameters and samples used in our experiments. The fold involves four sub-folders, Small_instances presents the parameters in the 10 small-scale instances, Medium_instances presents the parameters in 10 medium-scale instances, Large_instances presents the parameters in the 10 large-scale instances, and Layout_information gives the detailed information of section running time, station information etc. We refer to the [Parameters_config](Input_data/Parameters_config.md) file for more details regarding the input data set.
+In our paper, we construct 30 instances to test our algorithms. The [Input_data](Input_data) folder contains all the parameters and samples used in our 30 experiments. The fold involves four sub-folders, Small_instances presents the parameters in the 10 small-scale instances, Medium_instances presents the parameters in 10 medium-scale instances, Large_instances presents the parameters in the 10 large-scale instances, and Layout_information gives the detailed information of section running time, station information etc. We refer to the [Parameters_config](Input_data/Parameters_config.md) file for more details regarding the input data set.
 
 ## Additional Examples and Supplements to the Paper
 
-d
+We include three additional examples and pseudocodes of the algorithms developed in our paper. We refer to 
 
 
 
