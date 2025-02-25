@@ -32,4 +32,6 @@ There are two alternatives to run the codes for all the results in our paper fro
 
 ## Other remarks
 
-Note that: As most code comments and user guidance of the software are written in Chinese, please direct contact the developer Jiateng Yin (jtyin@bjtu.edu.cn) if you have any issues when running the project. Thanks!
+Please note that: 
+* As the software itself is a part of a project with metro companies, here we only opensource a part of the codes with no conflict of interest. This version mainly focuses on the algorithm design, instead of train simulations. The source data and codes are available for academic purposes only and cannot be used commercially. We encourage academic researchers to utilize these resources to replicate our findings and build upon our work.
+* As most code comments and user guidance of the software are written in Chinese, please direct contact the developer Jiateng Yin (jtyin@bjtu.edu.cn) if you have any issues when running the project. Thanks!
