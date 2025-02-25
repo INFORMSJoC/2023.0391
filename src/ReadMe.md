@@ -10,7 +10,7 @@ This folder contains the source codes that are embedded into a software platform
 Overall, the project involves three types of codes: 
 
 * A software platform, involving the files Program.cs, Parameters.cs, Fangzhen.Designer.cs, etc, to load the input data, transform the data, visualize the train timetable, and output the results. In particular, here we define several classes (Line.cs, section.cs, station.cs, train.cs) as data structures and some other classes (Display.cs, etc) to display and adjust the train timetable in the software.
-* 
+* Some key functions and algorithms to reschedule the train timetable. Basically, these functions are detaild in folder []
 * 
 
 ## Main functions and algorithms
