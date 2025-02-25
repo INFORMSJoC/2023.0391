@@ -6,8 +6,6 @@ that were used in the research reported on in the paper "Real-Time Rolling Stock
 
 This folder contains the source codes that are embedded into a software platform (based on .NET) for the simulation and optimization of trains in Beijing metro. Next, we briefly introduce the contents of the project, the main functions, key algrithms and the way of implementations. 
 
-Note that: As most code comments and user guidance of the software [src/User_guide] are written in Chinese, please direct contact the developer Jiateng Yin (jtyin@bjtu.edu.cn) if you have any issues when running the project. Thanks!
-
 ## Code structure 
 x
 
@@ -17,3 +15,6 @@ x
 ## Implementation
 x
 ## Other remarks
+
+
+Note that: As most code comments and user guidance of the software are written in Chinese, please direct contact the developer Jiateng Yin (jtyin@bjtu.edu.cn) if you have any issues when running the project. Thanks!
