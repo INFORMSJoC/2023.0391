@@ -44,24 +44,7 @@ This repository includes the data set, computational results, additional materia
 
 ## Data set
 
-The [Input_data](Input_data) folder contains all the parameters and samples used in our experiments.
-
-
-
-```
-make mult
-```
-
-Alternatively, to build the version that sums the elements of a vector (used
-to obtain the results [Figure 2](results/sum-test.png) in the paper), stepping K
-elements at a time, do the following.
-
-```
-make clean
-make sum
-```
-
-Be sure to make clean before building a different version of the code.
+The [Input_data](Input_data) folder contains all the parameters and samples used in our experiments. The fold involves four sub-folders, Small_instances presents the parameters in the 10 small-scale instances, Medium_instances presents the parameters in 10 medium-scale instances, Large_instances presents the parameters in the 10 large-scale instances, and Layout_information gives the detailed information of section running time, station information etc. We refer to the [Parameters_config](Input_data/Parameters_config) file for more details regarding the input data set.
 
 ## Additional Examples and Supplements to the Paper
 
