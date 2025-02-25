@@ -40,7 +40,7 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ## Description
 
-This repository includes the data set, computational results, additional materials and source data (with no conflict of interest) for the experiments presented in the paper.
+This repository includes the data set, computational results, additional materials and source codes (with no conflict of interest) for the experiments presented in the paper.
 
 ## Data set
 
@@ -63,9 +63,11 @@ make sum
 
 Be sure to make clean before building a different version of the code.
 
-## Additional examples for the supplement of the paper
+## Additional Examples and Supplements to the Paper
 
 d
+
+
 
 ## Results
 
@@ -75,6 +77,11 @@ d
 
 ## Replicating
 
+For replicating these experiments, the following requirements should be satisfied
+* a PC with at least 16 GB RAM
+* C# run on Windows 10 (with SDK higher than 10.0.150630.0)
+* CPLEX 12.80 Academic version.
+* 
 To replicate the results in [Figure 1](results/mult-test), do either
 
 ```
