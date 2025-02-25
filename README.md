@@ -42,11 +42,13 @@ Below is the BibTex for citing this snapshot of the repository.
 
 This repository includes the computational results, source codes and source data (with no conflict of interest) for the experiments presented in the paper.
 
-## Building
+## Data set
 
-In Linux, to build the version that multiplies all elements of a vector by a
-constant (used to obtain the results in [Figure 1](results/mult-test.png) in the
-paper), stepping K elements at a time, execute the following commands.
+The [Input_data](Input_data) folder contains all the parameters and samples used in our experiments.
+
+** xd
+** d
+**
 
 ```
 make mult
