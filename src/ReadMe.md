@@ -24,7 +24,12 @@ The key algorithms to reschedule trains are located at [Algorithm](src/WindowsFo
 * [Method](src/WindowsFormsApplication7/Algorithm/Method) The most important file in the project, which calls Network.cs to construct an event-activity network, and gives two alternative formulations for the investigated RSTO problem, i.e., ERST and PRST. From Line 711 to 1088, the function EventBasedFormulation() gives the event-based formulation, which is built through the definition of variables, constraints and objective functions with CPLEX, as given in E.1. Online appendix in our paper. The other contents, e.g., functions ColumnGeneration(), MasterProblem(ite), etc, are used for solving the path based formulations.
 
 ## Implementation
-x
+There are two alternatives to run the codes: 1) Copy the files from Algorithm into a new C# project;
+
+1) Run the code with our software. First, compile and build the entire project with Visual Studio (or other IDE that supports .NET framework/core); Then, run the exe file WindowsFormsApplication7.exe to start the software
+
+
+
 ## Other remarks
 
 
