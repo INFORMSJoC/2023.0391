@@ -40,15 +40,13 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ## Description
 
-This repository includes the computational results, source codes and source data (with no conflict of interest) for the experiments presented in the paper.
+This repository includes the data set, computational results, additional materials and source data (with no conflict of interest) for the experiments presented in the paper.
 
 ## Data set
 
 The [Input_data](Input_data) folder contains all the parameters and samples used in our experiments.
 
-* The comparison among MIP, BDP and BAP (corresponding to Table 1 and Table 5in the paper)
-* The comparison among H-strategy, MIP and BAP (corresponding to Table 2 and Table 6 in the paper)
-* The comparison among AR and SR strategies (corresponding to Table 3)
+
 
 ```
 make mult
@@ -65,17 +63,15 @@ make sum
 
 Be sure to make clean before building a different version of the code.
 
+## Additional examples for the supplement of the paper
+
+d
+
 ## Results
 
-Figure 1 in the paper shows the results of the multiplication test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
-
-![Figure 1](results/mult-test.png)
-
-Figure 2 in the paper shows the results of the sum test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
-
-![Figure 1](results/sum-test.png)
+* The comparison among MIP, BDP and BAP (corresponding to Table 1 and Table 5in the paper)
+* The comparison among H-strategy, MIP and BAP (corresponding to Table 2 and Table 6 in the paper)
+* The comparison among AR and SR strategies (corresponding to Table 3)
 
 ## Replicating
 
