@@ -46,17 +46,31 @@ This repository includes the data set, computational results, additional materia
 
 In our paper, we construct 30 instances to test our algorithms. The [Input_data](Input_data) folder contains all the parameters and samples used in our 30 experiments. The fold involves four sub-folders, Small_instances presents the parameters in the 10 small-scale instances, Medium_instances presents the parameters in 10 medium-scale instances, Large_instances presents the parameters in the 10 large-scale instances, and Layout_information gives the detailed information of section running time, station information etc. We refer to the [Parameters_config](Input_data/Parameters_config.md) file for more details regarding the input data set.
 
-## Additional Examples and Supplements to the Paper
-
-We include three additional examples and pseudocodes of the algorithms developed in our paper. We refer to 
-
-
-
 ## Results
+
+## Detailed results of the paper
+
+[Results](Output_Results/Details_results_30_instances) details the following results in the paper:
 
 * The comparison among MIP, BDP and BAP (corresponding to Table 1 and Table 5in the paper)
 * The comparison among H-strategy, MIP and BAP (corresponding to Table 2 and Table 6 in the paper)
 * The comparison among AR and SR strategies (corresponding to Table 3)
+
+[Time-test](Output_Results/time_test) details the comparison of computational time (unit: s) among four strategies (corresponding to Figure 9 in the paper) over the 30 instances.
+
+
+[Performance comparison](Output_Results/obj_test_2) details the comparison of objective function values among four strategies (corresponding to Figure 10 in the paper).
+
+[Performance comparison with different weights](Output_Results/weight_test) details the comparison of objective function values among four strategies with different weight coefficient wf (corresponding to the resutls in Figure 12 in the paper).
+
+[[Performance comparison between PRST and R-PRST](Output_Results/P-RST-VS-RST)] details the comparison of objective function values between PRST and R-PRST formulations (corresponding to the results in Table 7 in online appendix of the paper)
+
+[[Performance comparison with accelerations](Output_Results/acceleration)] details the comparison of computational time (unit: s) with and without acceleration techniques (corresponding to the results in Table 8 in online appendix of the paper)
+
+## Additional Examples and Supplements to the Paper
+
+We include three additional examples and pseudocodes of the algorithms developed in our paper. We refer to [Results](Output_Results/Details_results_30_instances) for more details on these additional materials. 
+
 
 ## Replicating
 
@@ -64,25 +78,7 @@ For replicating these experiments, the following requirements should be satisfie
 * a PC with at least 16 GB RAM
 * C# run on Windows 10 (with SDK higher than 10.0.150630.0)
 * CPLEX 12.80 Academic version.
-* 
-To replicate the results in [Figure 1](results/mult-test), do either
 
-```
-make mult-test
-```
-or
-```
-python test.py mult
-```
-To replicate the results in [Figure 2](results/sum-test), do either
-
-```
-make sum-test
-```
-or
-```
-python test.py sum
-```
 
 ## Ongoing Development
 
