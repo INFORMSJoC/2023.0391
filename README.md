@@ -46,9 +46,9 @@ This repository includes the computational results, source codes and source data
 
 The [Input_data](Input_data) folder contains all the parameters and samples used in our experiments.
 
-** xd
-** d
-**
+* The comparison among MIP, BDP and BAP (corresponding to Table 1 and Table 5in the paper)
+* The comparison among H-strategy, MIP and BAP (corresponding to Table 2 and Table 6 in the paper)
+* The comparison among AR and SR strategies (corresponding to Table 3)
 
 ```
 make mult
