@@ -32,7 +32,7 @@ Below is the BibTex for citing this snapshot of the repository.
   publisher =     {INFORMS Journal on Computing},
   title =         {Real-Time Rolling Stock and Timetable Rescheduling in Urban Rail Transit Systems},
   year =          {2025},
-  doi =           {10.1287/ijoc.2019.0000.cd},
+  doi =           {10.1287/ijoc.2023.0391.cd},
   url =           {https://github.com/INFORMSJoC/2023.0391},
   note =          {Available for download at https://github.com/INFORMSJoC/2023.0391},
 }  
