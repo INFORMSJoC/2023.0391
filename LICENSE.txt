@@ -1,4 +1,4 @@
-Copyright 2020, Ted Ralphs
+Copyright 2025, Jiateng Yin, Lixing Yang, Zhe Liang, Andrea D'Ariano, Ziyou Gao
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
