@@ -85,9 +85,11 @@ We provide two alternatives to run the codes for all the results in our paper fr
 * Main item
     * (1) ERST: For running ERST, call function EventBasedFormulation() directly from NewMain (i.e., the main function), which will construct an MILP for ESRT and then solve it with CPLEX using its default parameters, which termed as MIP in our paper;
     * (2) PRST: For running PRST, first instantiate the BCTree object, which will develop an initial solution CurrentBestSolution (termed as H-strategy in our paper) and then procede to find near optimal solutions with column generations (i.e., BAP). These above methods will get you the results in Section 6.3 (by setting a time limit of 180s) and Section 6.4 (without time limit).
-    * For comparison of the four strategies (with/without SR/AR), you can do the setting as follows: if you want to use SR, just set public static int[] DepotPosition as the positions of SRs; if you want to use AR, just add numbers to public static int[] TrainPosition to indicate the adding of ARs. These will help get the results in Section 6.5. For the results in Section 6.6, you just need to alter the value of public static int CancelPenalty from its initial value to a new value and then run these four strateties.
+    * (3) For comparison of the four strategies (with/without SR/AR), you can do the setting as follows: if you want to use SR, just set public static int[] DepotPosition as the positions of SRs; if you want to use AR, just add numbers to public static int[] TrainPosition to indicate the adding of ARs. These will help get the results in Section 6.5. For the results in Section 6.6, you just need to alter the value of public static int CancelPenalty from its initial value to a new value and then run these four strateties.
 
 * Run the code with our software. First, compile and build the entire project with Visual Studio (or other IDE that supports .NET framework/core); Then, run the exe file WindowsFormsApplication7.exe to start the software. [User Guide](src/User_guide.pdf) gives a detailed user guide for running the software. Please following the steps to do that! 
+
+We involve a [ReadMe](src/ReadMe.md) file for the detailed instructions for replicating the results. Please refer to that file for more details.
 
 ## Ongoing Development
 
