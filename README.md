@@ -74,7 +74,7 @@ We refer to the [Parameters_config](Input_data/Parameters_config.md) file for mo
 
 ## Additional Examples and Supplements to the Paper
 
-We include three additional examples and pseudocodes of the algorithms developed in our paper. We refer to [Results](Output_Results/Details_results_30_instances) for more details on these additional materials. 
+We include three additional examples and pseudocodes of the algorithms developed in our paper. We refer to [Results](Output_Results/ReadMd.md) for more details on these additional materials. 
 
 
 ## Replicating
