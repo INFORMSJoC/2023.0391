@@ -7,7 +7,11 @@ that were used in the research reported on in the paper "Real-Time Rolling Stock
 This folder contains the source codes that are embedded into a software platform (based on .NET) for the simulation and optimization of trains in Beijing metro. Next, we briefly introduce the contents of the project, the main functions, key algrithms and the way of implementations. 
 
 ## Code structure 
-x
+Overall, the project involves three types of codes: 
+
+* A software platform, involving the files Program.cs, Parameters.cs, Fangzhen.Designer.cs, etc, to load the input data, transform the data, visualize the train timetable, and output the results. In particular, here we define several classes (Line.cs, section.cs, station.cs, train.cs) as data structures and some other classes (Display.cs, etc) to display and adjust the train timetable in the software.
+* 
+* 
 
 ## Main functions and algorithms
 x
