@@ -93,7 +93,7 @@ We provide two alternatives to run the codes for all the results in our paper fr
 
 * Run the code with our software. First, compile and build the entire project with Visual Studio (or other IDE that supports .NET framework/core); Then, run the exe file WindowsFormsApplication7.exe to start the software. [User Guide](src/User_guide.pdf) gives a detailed user guide for running the software. Please following the steps to do that! 
 
-We involve a [ReadMe](src/ReadMe.md) file for the detailed instructions for replicating the results. Please refer to that file for more details.
+We involve a [ReadMe](src/ReadMe.md) file for the detailed instructions for replicating the results, the explaination of the code structures in the source files, as well as some useful notes. Please refer to that file for more details.
 
 ## Ongoing Development
 
