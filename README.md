@@ -40,7 +40,7 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ## Description
 
-This repository includes the data set, computational results, additional materials and source codes (with no conflict of interest) for the experiments presented in the paper.
+This repository includes the data set, computational results, additional materials and source codes (with no conflict of interest) for the experiments presented in the paper "Real-Time Rolling Stock and Timetable Rescheduling in Urban Rail Transit Systems".
 
 ## Data set
 
