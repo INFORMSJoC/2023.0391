@@ -81,19 +81,20 @@ We include three additional examples and pseudocodes of the algorithms developed
 
 For replicating these experiments, the following requirements should be satisfied
 * a PC with at least 16 GB RAM
-* C# run on Windows 10 (with SDK higher than 10.0.150630.0)
+* C# run on Windows 10 (with .Net Framework 4.6.1)
 * CPLEX 12.80 Academic version.
 
 We provide two alternatives to run the codes for all the results in our paper from Section 6.3 to Section 6.5: 
 
-* Copy the files from Algorithm folder into a new C# project; Call function ReadInputData() to load the parametres and the planned train timetable from [Input](Input_data) for each instance; Construct the event-activity network (constructed with big-arcs as default setting) by object instantiation of class Network.cs. After construction of the event-activity network, our codes provide the following ways to reschedule train schedule (as specified in our paper):
-    * (1) ERST: For running ERST, call function EventBasedFormulation() directly from NewMain (i.e., the main function), which will construct an MILP for ESRT and then solve it with CPLEX using its default parameters, which termed as MIP in our paper;
-    * (2) PRST: For running PRST, first instantiate the BCTree object, which will develop an initial solution CurrentBestSolution (termed as H-strategy in our paper) and then procede to find near optimal solutions with column generations (i.e., BAP). These above methods will get you the results in Section 6.3 (by setting a time limit of 180s) and Section 6.4 (without time limit).
-    * (3) For comparison of the four strategies (with/without SR/AR), you can do the setting as follows: if you want to use SR, just set public static int[] DepotPosition as the positions of SRs; if you want to use AR, just add numbers to public static int[] TrainPosition to indicate the adding of ARs. These will help get the results in Section 6.5. For the results in Section 6.6, you just need to alter the value of public static int CancelPenalty from its initial value to a new value and then run these four strateties.
+* Copy the files from Algorithm folder into a new C# project; Call function ReadInputData() to load the parametres and the planned train timetable from [Input](Input_data) for each testing instance; Construct the event-activity network (constructed with big-arcs as default setting) by object instantiation of class Network.cs. After construction of the event-activity network, our codes provide the following ways to reschedule train schedule (as specified as different methods in our paper):
+    * (1) ERST (Event-based RSTO): For running ERST, call function EventBasedFormulation() directly from NewMain (i.e., the main function from file Method.cs), which will construct an MILP model for ESRT and then solve it with CPLEX using its default parameters, which is termed as MIP in our paper.
+    * (2) PRST (Path-based RSTO): For running PRST, first instantiate the BCTree object, which will develop an initial solution CurrentBestSolution (termed as H-strategy in our paper) and then procede to find near optimal solutions with column generations (i.e., BAP). These above methods will get you the results in Section 6.3 (by setting a time limit of 180s) and Section 6.4 (without setting of time limit).
+    * (3) For comparison of the four strategies (with/without SR/AR), you can do the setting as follows: if you want to use SR, just set public static int[] DepotPosition as the positions of SRs; if you want to use AR, just add numbers to public static int[] TrainPosition to indicate the adding of ARs. These will help get the results in Section 6.5.
+    * (4) For replicating the results in Section 6.6, you just need to alter the value of public static int CancelPenalty from its initial value to a new value and then run these four strateties again.
 
-* Run the code with our software. First, compile and build the entire project with Visual Studio (or other IDE that supports .NET framework/core); Then, run the exe file WindowsFormsApplication7.exe to start the software. [User Guide](src/User_guide.pdf) gives a detailed user guide for running the software. Please following the steps to do that! 
+* Run the code and visualize the results with our software. First, compile and build the entire project with Visual Studio (or other IDE that supports .NET framework/core); then, run the exe file WindowsFormsApplication7.exe to start the software directly. [User Guide](src/User_guide.pdf) gives a detailed user guide for running the software. Please following the steps to do that! 
 
-We involve a [ReadMe](src/ReadMe.md) file for the detailed instructions for replicating the results, the explaination of the code structures in the source files, as well as some useful notes. Please refer to that file for more details.
+We also involve a [ReadMe](src/ReadMe.md) file for the detailed instructions for replicating the results, the explaination of the code structures in the source files, as well as some useful notes. Please refer to that file for more details.
 
 ## Ongoing Development
 
