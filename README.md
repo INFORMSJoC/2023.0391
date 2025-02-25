@@ -44,12 +44,12 @@ This repository includes the data set, computational results, additional materia
 
 ## Data set
 
-In our paper, we construct 30 instances to test our algorithms. The [Input_data](Input_data) folder contains all the parameters and samples used in our 30 experiments. The fold involves four sub-folders:
+In our paper, we construct a total of 30 instances to test our algorithms. The [Input_data](Input_data) folder contains all the parameters and samples used in our 30 experiments. The fold [Input_data](Input_data) involves the following four sub-folders:
 * Small_instances presents the parameters in the 10 small-scale instances
 * Medium_instances presents the parameters in 10 medium-scale instances
 * Large_instances presents the parameters in the 10 large-scale instances
 * and Layout_information gives the detailed information of section running time, station information etc.
-We refer to the [Parameters_config](Input_data/Parameters_config.md) file for more details regarding the input data set.
+We refer to the [Parameters_config](Input_data/Parameters_config.md) file for more details regarding the descriptions of input data set.
 
 ## Results
 
@@ -57,7 +57,7 @@ We refer to the [Parameters_config](Input_data/Parameters_config.md) file for mo
 
 [Results](Output_Results/Details_results_30_instances.xlsx) details the following results in the paper:
 
-* The comparison among MIP, BDP and BAP (corresponding to Table 1 and Table 5in the paper)
+* The comparison among MIP, BDP and BAP (corresponding to Table 1 and Table 5 in the paper)
 * The comparison among H-strategy, MIP and BAP (corresponding to Table 2 and Table 6 in the paper)
 * The comparison among AR and SR strategies (corresponding to Table 3)
 
