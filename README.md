@@ -3,14 +3,11 @@
 # Real-Time Rolling Stock and Timetable Rescheduling in Urban Rail Transit Systems
 
 This archive is distributed in association with the [INFORMS Journal on
-Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
+Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE.txt).
 
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper 
 [Real-time rolling stock and timetable rescheduling in urban rail transit systems](https://doi.org/10.1287/ijoc.2023.0391) by J. Yin, L. Yang, Z. Liang et al. 
-The snapshot is based on 
-[this SHA](https://github.com/tkralphs/JoCTemplate/commit/f7f30c63adbcb0811e5a133e1def696b74f3ba15) 
-in the development repository. 
 
 **Important: This code is being developed on an on-going basis at 
 https://github.com/JerryYINJIATENG/RSTO-platform. Please go there if you would like to
@@ -27,7 +24,7 @@ https://doi.org/10.1287/ijoc.2023.0391.cd
 Below is the BibTex for citing this snapshot of the repository.
 
 ```
-@misc{CacheTest,
+@misc{Yin2025,
   author =        {J. Yin, L. Yang. Z. Liang, A. D'Ariano, Z. Gao},
   publisher =     {INFORMS Journal on Computing},
   title =         {Real-Time Rolling Stock and Timetable Rescheduling in Urban Rail Transit Systems},
@@ -99,7 +96,7 @@ We also involve a [ReadMe](src/ReadMe.md) file for the detailed instructions for
 ## Ongoing Development
 
 This code is being developed on an on-going basis at the author's
-[Github site](https://github.com/JerryYINJIATENG/RSTO-platform).
+[GitHub site](https://github.com/JerryYINJIATENG/RSTO-platform).
 
 ## Support
 
